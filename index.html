@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Education Online</title>
+
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content="Education Online" />
+        <meta name="content-language" content="en" />
+        <meta name="author" content="Education Live" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="icon36.png" title="Education Live">
+        <meta name="og:image" content="logo.png" />
+        <link rel="stylesheet" href="/css/style.css">
+        <style>
+            .iframeloader {
+                background: url(./prx-loading.gif) center center no-repeat;
+                background-size: 5vw;
+            }
+            #app_frame{
+                border: none;
+                position: relative;
+                z-index: 2;
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+        <style type="text/css">
+            .sticky-ads {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 500px;
+        box-shadow: 0 -6px 18px 0 rgba(9, 32, 76, .1);
+        -webkit-transition: all .1s ease-in;
+        transition: all .1s ease-in;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fefefe;
+        z-index: 20;
+    }
+    
+    .sticky-ads-close {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px 0 0;
+        position: absolute;
+        right: 0;
+        top: -25px;
+        background-color: #fefefe;
+        box-shadow: 0 -6px 18px 0 rgba(9, 32, 76, .08);
+        cursor: pointer;
+    }
+    
+    .sticky-ads .sticky-ads-close svg {
+        width: 22px;
+        height: 22px;
+        fill: #000;
+    }
+    
+    .sticky-ads .sticky-ads-content {
+        overflow: hidden;
+        display: block;
+        position: relative;
+        height: 450px;
+        width: 100%;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 0px;
+    }
+    #listgame{
+        
+    }
+    #listgame label{
+        font-size: 20px;
+
+    }
+    p.info {
+        border: none;
+        color: white;
+        padding: 15px 23px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        margin: 4px 2px;
+        background-color: lightblue;
+        margin-bottom: 10px;
+
+    }
+        </style>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LHM3DHCCPE"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-LHM3DHCCPE');
+        </script>
+    </head>
+    <body>
+        <nav id="navbar" class="navbar" role="navigation" aria-label="Main navigation">
+            <div class="navbar-filler-left"></div>
+            <div class="container is-fullhd">
+                <div class="navbar-brand">
+                    <button class="navbar-burger" aria-label="Open main navigation" aria-expanded="false" data-target="menu"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
+                    <a class="navbar-item" href="/" aria-label="Logo">
+                        <img
+                           src="logo.png"
+                            width="138"
+                            height="31"
+                            alt="Education Online Logo"
+                        />
+
+                    </a>
+                </div>
+                <div id="menu" class="navbar-menu">
+                    <div class="navbar-start">
+                        
+                        <div class="navbar-item is-mouseable">
+                            <div class="navbar-link">
+                                <a class="button navbar-control" href="https://discord.gg/qgHr9T2Vu6" title="Discord">
+                                    Discord
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar-item is-mouseable">
+                            <div class="navbar-link">
+                                <a class="button navbar-control" href="https://www.youtube.com/@tbg95" title="Youtube">
+                                    Youtube
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar-item is-mouseable">
+                            <div class="navbar-link">
+                                <a class="button navbar-control" href="https://tbg95.co/" rel="noindex, nofollow" title="TBG95">
+                                    TBG95.co
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar-item is-mouseable">
+                            <div class="navbar-link">
+                                <a class="button navbar-control" href="https://qag99.com/" rel="noindex, nofollow" title="TBG95">
+                                    qag99.com
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar-item is-mouseable">
+                            <div class="navbar-link">
+                                <a class="button navbar-control" href="https://jelly-truck.github.io/" rel="noindex, nofollow" title="TBG95">
+                                   Jelly-Truck.github.io
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-filler-right"></div>
+        </nav>
+        <div id="category_takeover" style="height: 0px;"></div>
+
+        <section class="section">
+            <div class="container">
+                <h1 class="title">Education Apps</h1>
+
+            </div>
+        </section>
+        <section class="section">
+           
+            <div class="container" id="listgame">
+                
+                <p class="info">
+                    Student tip! If a teacher is coming, press           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAi8AAAIPCAQAAAARcfb5AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAJiS0dEAACqjSMyAAAACXBIWXMAAABIAAAASABGyWs+AAAACXZwQWcAAAIvAAACDwDwq9NiAAAhmUlEQVR42u3deZzcdZ3n8VcdfR9Jdy6SEM6AEBAQRlRcH94yiesFozOzs8cIKp7ruOuqszor46g74jUq4OyO6844M87Kw2vVFZFD0AkKoqAwQiAhAULupJNOd/qorqr9o6rb7qSP6u76/n6/qno98wdd1b/6/b6/Ir93vt/f7/v7/FLFIhErMMQQeXIUot601HCaSNNMG60xbDsbxUbyHOQABzhMP/0Mx7CbUqNL0Uk3S+hhGStYEs02Q/ZehniSXexiv/0UKVFaWM0a1rKGTMCtBIqXPh5lG3s5ceVNtNBME2maAu6WpJICecbIMcoI+RN+28QprGc9LUG2XfV4GWYLv2H3lPdaWUIXXXTSFs1oTNI0RhhigKMc4ciUqMmynnM5jVSVt1fVeNnBgzw+qdktrGA5vbGcVJI0syL99LGfg5NOXHRwDheytIpbqVK8FNnKPeybeN3GatbQHdV3JWlB8hzkafZNdArSPINLWValtVchXgps4V4Oll9lOImT6a16N0tSKDn2spND5Vcp1vMcVlZhvYuOl+3cSV/55w7OCHwmWlIoQzzBk4yVX63nxXQtco2Lipej/Iit5Z+7OZOT7LNINS3Hdp4gB0CW53LJoroLC46XPL/kZ+VmLGV9VbpSkuI3xpNsZwSAXl7CKQte0wLjZT83cwCAFs5hTdzfh6SqyvEYT5bnrZ3HSxY4S21B8fJr7mQMSHEKZzuTRapLR3mIwwD08kpWLGAN846XUW7nYQCWcp6XnqW69hRbyAFZXsQF8/70PONlP9+jD0hxJus9kSvVvWF+Vb5kfS4vm+cgaV7xsoVbGAOauZDlce+1pEgU2co2ikAPV85rxDKPeLmfOykCy7gw0A1QkpLpAL9iFOjginmchak4XjZzDwAnc76DIqnhDPFzBoEWXsPJFX6mongpchsPAnAGz4h7LyXFYpT7OAJk2cT6ij5RQbwUuZlHADiH0+PeQ0mxyfNLDgApNnJOBcun517kDh4BUlxguEgNLcMlrAGK3MKTFSw/Z+/lHjYDcIFzcyVR5AH2As1cyeo5lp2j9/Krcrg48V8SQIoLWQaM8u3ynN6ZzRov27gDgDM4Le59kpQQaS6iCxjimxybY8kZHeEHFIGTOTvu/ZGUIE08m3bgMDcz29mVGeMlz/cYAZZxXtz7IilhmrmELPAE986y1Izx8mP2Ai1c6CQ6SSfoKHc87mbnjMvMEC9buZ/SxejmuPdCUiKtZh1Q5PsMzbDEtPEyyC0AnFm1iuGS6s85dAMD/HCG308bL3cxAvRyZtytl5RgGS4kC2zj8Wl/P028PMUjQJoLPOsiaVYd5evKd0w8YWCyE+KlwO0ArPfZipLmtI5uoL9cUWGqEwrl3schoINTCfJse0l15lzupch9bKDnuN8c13sZLGfQhkrudZQklnIykOeuE35zXIr8khywmt64WyypZpxFM/A4e497f8rgaJgHgBRnxd3aimWoqKaEVEPyFGvs1EQTp7MFuJdXTXl/SrzcTw5YQ1vcrZ1lN5pppolmmkgZLKpbRQoUGGWUHKPkyMfdoDmsYzujbOXglLlyk+IlV56pm8SiUU200Ub7op53K9WOFBkyNNEBQJERhhhimELcDZtBhlN5jCL3snHSu5Pi5VcMA6vKO5QUzXTSNeXpKnnGyJGjQKGc8ZPNNFdnvnN45rue1LyWDrvV8NudSXGe71drPWG3G+1WU6RJkSZNiiaayZIiRSut9FBkiKMMJjJkTmE7Y2zhMpZMvDcpXsaLdSdFhk66JmbfFBlmmGFG5/hqQx+g1YmXWn9/JqFjIZ73421NiizNtNJGEynaaafAIP0z3ucTlyyn8DgFHuL5k94r200fsIyuuFsJQBM9dJX/co8xwBAjNXayS6qOIjlyDAIZ2mijgzRddJGjj6OJOipOZQcFHp4uXn4DUPHzS0JqpodOUkCeYxxlJO4GSYmQZ4ABDtJOF600sZJeDtOfmKFSM8vZRz87J3IkO97wLUCWFTGnYZYVdAIwxpGEZbOUBAUGGKCJpXSQZTk9HOJIQo6UNewDHp6Il/K13e0MAyfFeqk3RS+n0gnk2M9O+hPylUnJ89tjJMMK1iXkDsHlNAFbJm5vLOfJwwBzPlYgpDZOYRlp8hxkJwNGizSHMQ6ys/xg1nWsSsA8sDQnAaMT5RnSAHm2A60n3JAUlRQrOJlmYICd9Mf9HUk1Y4x97CEHdHNaAibElrooW8uv0gA7GYN5PPe+uppYx1Igx272J+Y0lVQrhniaPopkWBt7fcklNAE7yqOPNMB2AJbH0pxO1tECDLCL4Zi/Gqk2FTnMbsZI0cvaWOe2p1gGDLMHKMdL6WmxcdwlvZTVZChwwH6LtCgjPM0xoJ11sRbgL/WfSpmShhEOAt0xZN4yVgBj7OZojF+HVB8K7KUPaOLkGK8klc7g7gIgDbspAksjbkSKVfQCI+xiNLavQqovh9lfPgvTHlML2mliPFXSlEvAdEfahBSr6KY0Rkv6reZSLRlgLwXSrIktYJYCwxwGsrAfgM5IZ5qsoAsYZL/zW6QqG2IPJ5FmNTtjuVzSyX5gPz2kS/GSirQMwzKWAscMFymIEfZQIM3aKaVMolK6recAkC5wBGiLcMbfUpYBI4aLFMwIeymSYd2JDwMJrtRVOQSkByhAhLP9WlkBjLLHC9FSQMMcALKsjvxxiKWrVv1A+sikN8LLsIYUecNFCm6Ag0Bb5DN5m8gCR4D0AAAtEW14FVlgn1eLpAj0Mwj0Rl7gtgUYIk+6VFIvmhNAPXQCh538L0XkAGPASRGfgSnNGh4mPTzpZVhN5bsR+iLdUamRFdhXrgkTpVKeHCNb6r1kIriKs4I0efZFuptSoxuhj166OMJgZNss3WA0On49Ovz9Rp10An2edZEidoQRYFWEV5BKsTJGOgfM/4ET89/cSmDEWxelGBxk/ORENEp5kicdzQXipTSVd1JS1Er/sPdEVhVhfDuRTNZN0ws+UkSKzSHypCMvdxtJvHSToegVIyk2BY4CSyOu6hRBvJTK4w14UleKUT8FMhHXdYogXrrIUuRwpLslaao8/VAqkhCZCLbVAwxOPFhJUjyOUCRTLpcQjeDx0kwr+OwiKXYFBoElEW4xeLx0AzmvGUkJMAC0R3j/UXlLxWA3BXRDhJORJc1siDwZuiObgRa491KqGu5cXSkZBoiybH/geOkCRj2tKyVE6YH3UT1mLXjvBYYi2hVJcxmlAJE9oiRovGRoAYtHSYlRZIQ6iZdSCT7jRUqOYYisOGbQeGkHRizaLSXIEOPjivCCxksL+PxoKVFGKRLVs0GCxkszxouULEXGiKa6dtB4yZIBcpHshqRK5YgqXgLO2m2a2BVJyVGKl5DF+8fXHbD30sJ4R0xScpTiJYrC3kEHR1hCSkqcPJCKpG5dwHhJgxelpcQp/aMfRVmpwPES/uFskuandFTWeLyksPciJU/pqKzxeMlgvEjJUzfx4uBISqYaP7UrqbEZL5ICmajqW/1hjAMjKbnC1df+LXsvkgIxXiQFYrxICsR4kRSI8SIpEONFUiDGi6RAjBdJgRgvkgIJWGtXUpKFO+YjqLUrqbEZL5ICMV4kBWK8xGIPD8fdBCk44yUWn+Qq9sbdCCmw7OJXUTv6eJjH2cthRkjRxhKWs5pTOS2iR2KOe4BvAldxEx1xfyVSQA0RL3l+zm1sZvsMv09zOs/kWVzKGRE8u26MDwHwG97J3zTG/wA1qLr/232Qf+Im9s26TIFtbOPbwCpewMt5ftDezP/mN+Wf7uTP+UgkD+OU4lDX8dLH/+CfGJnHJ/bydb5OJ5t4AxcEOfB38JlJr/6BU3lTzN+SFErdntotcBOX87fzCpdxA9zE7/EavsrRKrdqjP90XIs+xg9i+46ksMrxUgzwJ057eCP/jf5FreNhPszz+RD/UsV2Xc8DJ7z3bu6P9suRCHPMH3/s12Xv5ae8lnuqsqYhvsZreR03MViFtW3m89O8O8qbeSrS70eKRh3Gy9e5msNVXeNDfJDn8+FFToV7knfO8JuD/DFHovlypAjVXbx8mQ8FebL1IF/l1byebzC0oM8f5qpZIuRxrmE0om9Iikqdxcs/cF3Q9T/A+3keH+HReX5ugKt5fNYl7uEDFsVQnamrePkBH4tgKwN8hU38Ad+p+KpUP2+s4PTtt/hcBK2XolNH817+hQ9EuLX7uI8eruQPOG2OJXfyZrZUtM7PcQpXRrgPUlh103vZzzsWNMdlMfr4Ei/j3/O9Wbb8Q15VYbgAvJ+7I94HKZw6KYaZ4z2x3YF8N3ezlFfzai48Lq0f4bPcNq91jfFWvsFZMe2JGkkUx3ydDI7+il/Euv3DfIWvsJLncw69ZBnlKf55mil0c+vnau6ol/8tanB18fd4M1+OuwkA7ONbVVjLi+vjf4pUD+dejvCncTehilby3ribIFVJHcTLx9kfdxOq6Fq64m6CVCU1Hy8/4TtxN6GKXsbGuJsgVU2Nx8sxro27CVXUxccsLqU6UuPxcj274m5CFf0Zq+JuglRFNR0vj/B3cTehil7I78XdBKmqajheCvx5kHuj49HDJx0Yqc7U8Kzdbyxo2lpS/SUr4m6CGoyPsJ9RH5+OuwlV9Ee8Iu4mSFVXs/HyqTqq77aBP4u7CVIANTr//Jd8c0Gf6+alPIcz6aWJAfbyKA/w0yqXzpyvLm6gJdYWSGHUaLwsZCrdSt7FayYdyKs4k8tIkecX3Mz36YtlT1J8Yc6KMVJtqtHB0XtZP89PvJ6becO0vYQMl/JhfsIXeEEMe/JBXhjDVqUo1Gi8dPLX9MxjJ/+Cj9I56zLNXM7/4g7ezNII9+PfclWEW5OiVaPxAmu5nqYKd/GzvL7CtZ7Mf+EnfIKLItmHjVzrXBfVsZqNF7iYv6houU9w+bzW28LruInv8Ie0B23/S/gsmaBbkOJVw/ECr+Etcy5zNa9a0LrP5SNs5iOcE6jtL+eLXi9SnZuIl9p8yvS7efmsvz+bdy9i7Z38Id/hJl5Hc5Xb/fvcUPV1SvPhM6bnlOYv2TDjb1N8bNEHcYpncR2b+dOqXT5O8T7+e4XnjaRaVuPxAu3cOOPdOn/MM6u0laVcxQ/5ChsXPVFoBf/IWz2hq4ZQ8/ECq7hx2rMYa3lXVbeT4nl8ns38V85d8Dqu4GaeG/H3I8WlDuIFzucT07x7bZArP8u4iu9yM+/kzHl+8hL+D5+iN4bvR4pHXcQLXH7CKdxXBp2DexZ/wi3cygd4bgVnd9K8gr/nJi6N9TuSolaj9xyd6Bq28b2JV12RPJzkdN7Emxjmfn7Or3iIgycssYaLeCEvZnncX48Ug7qJlxQfZedEgan3RXhAt/I8nkcK6GMHe+inQCsdrOZkh0JqaHUTL9DC9byBXcCzuTKWFvTM4z4oqf7VybmXkmV8kXaW8un62i2pRtVR7wXgbD7DMCvjboYkarqU9/ReFHcDpJoQ8piv+VLekpLOeJEUiPEiKRDjRVIgxoukQIwXSYEYL5ICMV4kBWK8SAqk7mbtSqpM+GPe3oukQIwXSYEYL5ICMV4kBWK8SArEeJEUiPEiKRDjRVIgxoukQJy1KzUka+1KqmHGi6RAjBdJgRgvkgIxXiQFYrxICsR4kRSI8SIpkOz4D9WfYuNEPSm5ophKa+9FUiDGi6RAjBdJgRgvkgIxXiQFYrxICsR4kRSI8SIpEONFUiAWw5QalMUwJdUs40VSIMaLpECMF0mBGC+SAjFeJAVivEgKxHiRFIjxIikQZ+1KDclau5JqmPEiKRDjRVIgxoukQIwXSYEYL5ICMV4kBWK8SArEeJEUiLN2pQZlrV1JNct4kRSI8SIpEONFUiDGi6RAjBdJgRgvkgIxXiQFYrxICsR4kRRIdvyH6k8Q9jYDKbks5S2phhkvkgIxXiQFYrxICsR4kRSI8SIpEONFUiDGi6RAjBdJgVjKW2pIIY95S3lLCsx4kRSI8SIpEONFUiDGi6RAjBdJgRgvkgJx3ovUoKxWJ6lmGS+SAjFeJAVivEgKxHiRFIjxIikQ40VSIMaLpECMF0mBOGtXakhWq5NUw4wXSYEYL5ICMV4kBWK8SArEeJEUiPEiKRDjRVIgxoukQIwXSYFkx3+o/gRhbzOQkiuKG4HsvUgKxHiRFIjxIikQ40VSIMaLpECMF0mBGC+SAjFeJAVivEgKxFLeUoOylLekmmW8SArEeJEUiPEiKRDjRVIgxoukQIwXSYEYL5ICMV4kBeKsXakhWWtXUg0zXiQFYrxICsR4kRSI8SIpEONFUiDGi6RAjBdJgRgvkgJx1q7UkJy1K6mGGS+SAjFeJAVivEgKxHiRFIjxIikQ40VSIMaLpECcVic1KB9hL6lmGS+SAjFeJAVivEgKxHiRFIjxIikQ40VSIMaLpECMF0mBZMd/qP4MPucBS8llMUxJNcx4kRSI8SIpEONFUiDGi6RAjBdJgRgvkgIxXiQFYrxICqSBau0+Rhsnx90IKSFCHvMNV2t3lP/MRm5kJO6GSA2jYeLlS2xhlM/xSu6KuylSg2iQeNnGjeWfnuItvI2n4m6Q1AAaIl7yfIjcpNd3sInrHSZJgTVEvHyV+497Z5QvsIk7426YVNcaIF528pkZ3r+Gt/Jk3M2T6lbdx0uRDzM0429/xCa+wHDcjZTqUt3Hy/9l86y/Lw2TfhR3M6U6VOfxcoCPV7DUTq7hGodJUpXVebx8lP4Kl/wRG/m8wySpisrxUgzwJ36384N5LJ3jejZyR9yNliIS4qifeuzXce+ln2vn/ZmneStvcZgkVUUdx8t17F/Q5+5kI59zmCQtWt3Gy8/4+oI/m+MGfpfbEzHAk2pXncbLEB9a5Bqe5q28mSfi3hGphtVpvHyenVVYy11s4q9mmZQnaTZ1GS8P8rdVWtMoN/C73OYwSVqAOoyXUT5Y1TjYxdt4Ezvi3i2p5tRhvPwdj1Z9nT9mE591mCTNSx3Gy+/zJpqqvtYcN3I5tzpMkipWh7N2u3kvt/CaAGvezdu52mGS6kK4Obu/PfrrsPcCsIZP8C0uC7DmH7ORzzhMkipQp/ECcC5f5m84u+rrzXEjr+CHDpOkOdRxvAC8gG/xcVZVfb27eTtXsT3u3ZMSrc7jBTJcwS28h46qr/knbOLTHIt7B6XEqvt4AWjlGm7j340/krJqcnyRy7nFYZI0rYaIF4BePsT3ubzq693NO3gjj8e9e1ICNUy8AJzK5/kal1R9vf/MJj7pMEk6TkPFC8BF/CPXc3qV1zrGX/OKOYqGS42m4eIFUryc7/Jhequ83n30xL1rUqJMxEs9zdudWxP/hlt5B61VXOc72RD3bkkVCz9ntyF7L+M6+Y/cyutJVWVtG3hb3DskJUwDxwvASj7G93jRoteT5VMBbqOUaluDxwvAWfxP/p7zF7WOd/GMuHdDShzjBYDn8HU+zdoFfvp83hL3DkgJZLyUpXkVt/ABuuf9ySauc2AkTcN4maSZq7idq+cZFn8S4K5sqR4YL8dZwvv5Ia+uePkLuDruJksJVYfV6hZvLZ/i2zy3giWbua7qN0pK0bBaXWzO4yt8ibPmWOo9rI+7oVJiGS8zSvFCvsvHWTnjEs/iqrgbKSWY8TKrDK/nthmKUTXzCTJxN1BKMONlTm28ndv5oxOi5L2cEXfTpEQzXiqyjGu5mVdMeudi/kPcjZISznip2OncwNe4GIAWrnNgJM3BeJmXi/kaN3Aq7+O0uJsiJZ6TNuYpxeW8xJ6LVAHjZQG8w0iqhIMjSYGUey+1PYlf0nxFcczbe5EUiPEiKRDjRVIgxoukQIwXSYEYL5ICMV4kBWK8SArEeJEUiLN2pQYV7pi3lLekwIwXSYEYL5ICMV4kBWK8SArEeJEUiPEiKRDjRVIgxoukQCaeFFD9GXzOA5aSy1q7kmqY8SIpEONFUiDGi6RAjBdJgRgvkgIxXiQFYrxICsR4kRSItXalhhTymLfWrqTAjBdJgRgvkgIxXiQFYrxICsR4kRSI8SIpEONFUiDGi6RAjBdJgXhTgNSgLOUtqWYZL5ICMV4kBWK8SArEeJEUiPEiKRDjRVIgznuRGpLFMCXVMONFUiDGi6RAjBdJgQSMl7G4903SNFIA5CPYUsB4yYddvaQFKcVLFP/8B+69GC9S0pSOyhqPlzzjOSkpOepicJQLu3pJCxJd7yU7/kP1Z/CNApkIdkHSfJSOypHarlY3CKQNGClhmoDhWh8cDQKTukeSEiHL+NEZWsB4OUaRUlJKSo4m4GgkWwoYLwUGMV6kpGmiDnovMAA0R7IbkiqTJU0d9F7gANASyW5IqkwrUKAvkm0FjZdDQMaAkRKkDTgcyXWjwPHSz2h5dyQlQyulcUUUAk+rPVDeHUlJ0ESW6OIlcK3dfayhhTSFiHZH0mzagFH6As/YjajW7h7ypGkPuxFJFeoEdkf2z33geMmxp7xLkuLWRAvwVGTbC35L806gzTuPpAToBI5FdFEaIoiX/YwAXZHtkKTppegkyr5LBPFS5Emg28JSUsw6yFKsr3iBHRTI2H+RYrYE2MVQhFuMIF6GeQpYYv9FilEHzcDWSLcZSbXKrRTJev1IitESYC/9kW4zkng5xtNAj9ePpJh00QI8FvFWI6q1/RgFMiyNeOckAaTpBfZGeEm6JPBNAeOOso2z6GaAkYh3UFIvafI8FEHx7qkie1LIowwByyLePUktdAFbI6pQN1lk8ZLnQaDFAZIUqTQrgMGIrxmNbzsye9gD9FigQYrQMpqAByMqIDVVpI9RfIBhYKXPbpQi0kUnsJV9sWw90iN9lPsokmFlLLsqNZoWlgF9PBLT9iPuSBziEaCN5THtrtQ4MqwixSj3xVbOLfJxymPsAbo8xSsFleYkMhS5P9K7jI5vQ+R+wWGgx5scpWDSnEQz8CB7Y21F5PL8jKPAcu9CkoJIsYIW4BF2xNqOiGbtTjXC3byQVlaQjvgWK6n+ZVhFC7CDLTG3JKZrxMNsLs/i7Yn5C5DqS4aTaAGe4NdxNyW+KSgD/Jh+YCnLrQQjVUkza2gGtvBA5HcYnSjGGW7DbOYQ0MXq8TGapEXoZDVZivw6tpkuU8U6gXaUu3kaaGGtz0KSFiXNclaQJsd9bI+7MWXZeEs85bmPg5xHhlUcCf7sOKleNbOCZuAIP4/hzujjjd/flC0NS+I8rLdziGfTwRLaORjjFCCpNqVZUq5l/URMty4er3Q2NUu29EO8vYYj3MX5nEITJzHIwUR8QVJt6KCXLDDCgzwdd2PKSjchZMi2AXHHC+S4nye4gCV00MYRjhox0pxa6KENKLKdR8jF3ZwJpTxpJVuqvpKEg/kQd3E659BED0s4ypFEtEpKptaJ2kl9/JrDcTdnitKR20a2dMWmEHv/BaDINp7iTM6giSV0M8AAw3E3SkqYNB3lyv/Qx6PsjrtBJygNjlrJlu77SU4/YZSH2coZnEkzXXQxxlEGE9Ttk+KToo1O2sunTg+yJaYyUXPJA52kyXZPvEyOHFvYxlpOo4csPfSQZ4ghhhmLu2lSDFI000YbLeVgGWMXOzgUd7NmUBoLdQPZTjLkE3jYjvEET9DBOtbRQYZOOoExchN/igkLRal60kCGpok/4/Nfi+znKXYl+u9+KU26gWyKHg6Qp5jIO38GeYRH6GEVy+klTZYsbZN+X6QYWyWuSiTxO42jnUk4s1c77UxN+zzTYQ6wj301cDayFC/LgCys4ACQoznuVs2ojz4gQy/L6KSLzomvP0XKwuCqY8MMMMARDnA07qZUrHSmdDnleHmYZMdLSZ797C//3EYHzWTI0uTtkKorBcYYI0eeEQZq8qLGlHhZBcAoHXG3ah6GvHlASqgc0M4SIAurSVNgNCHjTkm1LEcBWAtAGrKsAsaMF0mLVhoarQHK9V7WAdTAGWlJSVfKkVOBcrycPultSVq4EaCz/KDENMAaWoARh0eSFqWUIqeXX6UBUpwJFBiNu22Salrpiu768qvynLQNAByLu22SaliRIaC9fOZlIl7W0QkMJ3qCvaRkG6IInDMxk7783xTnAkVP70pasNLQaMPE64kbdhweSVqMPCPAMlZOvDMRL6U3Rz29K2lBBoDJfRcm3w94IbcCR+mNu5WSak6BY0B2SrxMqmawgS5gpCbv0ZQUr0GKwPlTbo2eFC8ZLgHGuziSVKkig0CGZ095d0otpgtoB4btv0ialwGKwLl0TXl3SrxkuRiA/rjbKqmG5BkE0sf1XTi+kuSFtAGjFmuSVLH+8nS6nuPePy5eWngBAEe9vVFSRUYYBprL2THZCXWwz2cNkK+hwsGS4lMsn0y5bJpyutOU2X8paeBYAp99JClpBhgDVnDRNL+bJl5KCxY57ABJ0qxGGQTGOyXHm/YpHpfxGEfJ0U933K2XlFiFcifkmeXauseb9hlkzWwqD5C8g1rSTI6QB3p58Qy/n+ERh2u5bNLHJel4g4wAWV4146MMZ3yC6qWcBhTpi3sfJCVQrnz70EtZNuMyszygeSOdwBiHPMUraYox+igCGzhvlqVmiZe2cqdn1JsEJE2Sp48CsJqXzbpcerZfruaVpIAhJ9lJKivQRx5YymtnPOtSkp59RWdyOQCDlmmQBEAfY0AHV9A2x5LpuVa1gX8FwIABIzW8IofIAS1cydI5l54zXuBSfgeAAYdIUkMrcIhRoIlXlx/zOrtUsaLLQvewGYBWuknFvY+SYpAvn3Np5XWsrugTFcYLPMStFIFmlhowUsPJcZgC0M0VFZf7rzheYBv/jzEgy5I5zhdLqi/HyuUul3MFnRV/ah7xAk/zHYaAFJ20x72/kiJRpL989+Ep/Gta5/HJecULDPB9dgLQRpeDJKnujXGEMSDFc3jePI/5ecYLFPkp91AE0nTTEve+SwpogGMUgXY2cuq8Pz3veAF4gu+Xi3230Ol5GKkujXC0XDFhHZumKXU5twXFCwxyCztKK6CdDodJUl3Jc5QRADI8l0sXeIQvMF4AHuWu8kS7DO2e6pXqRJ5jDJXrJJzKS054vEjlFhEvkOOn/JICAGnaabcXI9W0PAOMlKOlkxdx9qLWtqh4ATjIj3iy/HOaNlo9FyPVpFGGJsrfZrmQy2ha5BoXHS8Au7iXxydeNdFKSyU3M0lKhDFGGCqPQ6CJC/mdqpzuqEq8AOzjHrZO1LVL0UwrTYaMlGh5RhghN/G6lYu4eF5T52ZTtXgBOMSDbJlUuCFFU/mP52SkJCmQY5TRKaX6T2IDG2iu4laqGi8ARZ7gYR6b8ozHFBmyZMmSJm2PRopFngJ58oyRmxgIlXSxgXMrvlGxclWPl5Ic29jOjvLku+M2SYq0/RkpEimKFCjMUJC/l9M5g5MDHY+B4qWkyH52sovdFqKSEiTNMtawhnXzuPt5IYLGy2+NsJ9D9NFPP8cYmjJ0khRaM+100s0SlrKcXjKRbDWieDlejnx5yrGkkNI00RzTGc//D2ckE2aIRnWoAAAAO3RFWHRjb21tZW50AEVkaXRlZCBieSBQYXVsIFNoZXJtYW4gZm9yIFdQQ2xpcGFydCwgUHVibGljIERvbWFpbjTN+qoAAAAldEVYdGRhdGU6Y3JlYXRlADIwMDktMTAtMDVUMTc6MzE6MTgtMDQ6MDBgfcEpAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDA5LTEwLTA1VDE3OjMxOjE4LTA0OjAwESB5lQAAAABJRU5ErkJggg==" alt="Girl in a jacket" width="40" height="40">
+         to go in school panic mode. It will put on a school work screen.
+          </p>
+               
+                <div class="grid is-4-tablet is-4-desktop is-6-widescreen is-6-fullhd is-6-ultrawide">
+                    <div target="_self" title="Tiktok" class="tile-card" onclick="openApp('www.mathway.com')">
+                        <figure class="image is-16by9">
+                            <img
+                                loading="lazy"
+                                src="/img/mathway.png"
+                                alt="MathWay"
+                            />
+                        </figure>
+                        <div class="content">
+                            <div class="name"><span>MathWay</span></div>
+                        </div>
+                        
+                    </div>
+                    <div target="_self" title="Youtube" class="tile-card" onclick="openApp('youtube.com')">
+                        <figure class="image is-16by9">
+                            <img
+                                loading="lazy"
+                                src="img/yt.png"
+                                alt="Youtube"
+                            />
+                        </figure>
+                        <div class="content">
+                            <div class="name"><span>Youtube</span></div>
+                        </div>
+                    </div>
+                    <div target="_self" title="Google" class="tile-card" onclick="openApp('google.com')">
+                        <figure class="image is-16by9">
+                            <img
+                                loading="lazy"
+                                src="img/gg.png"
+                                alt="Google"
+                            />
+                        </figure>
+                        <div class="content">
+                            <div class="name"><span>Google</span></div>
+                        </div>
+                    </div>
+                  <div target="_self" title="Google" class="tile-card" onclick="openApp('https://Live-Edu.tbg95dev.repl.co/new.html')">
+                        <figure class="image is-16by9">
+                            <img
+                                loading="lazy"
+                                src="https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht=s200"
+                                alt="Google"
+                            />
+                        </figure>
+                        <div class="content">
+                            <div class="name"><span>Roblox</span></div>
+                        </div>
+                    </div>
+                    <div target="_self" title="Instagram" class="tile-card" onclick="openApp('instagram.com')">
+                        <figure class="image is-16by9">
+                            <img
+                                loading="lazy"
+                                src="img/insta.png"
+                                alt="Instagram"
+                            />
+                        </figure>
+                        <div class="content">
+                            <div class="name"><span>Instagram</span></div>
+                        </div>
+                    </div>
+                    <div target="_self" title="Twitch" class="tile-card" onclick="openApp('twitch.tv')">
+                        <figure class="image is-16by9">
+                            <img
+                                loading="lazy"
+                                src="img/twi.png"
+                                alt="Twitch"
+                            />
+                        </figure>
+                        <div class="content">
+                            <div class="name"><span>Twitch</span></div>
+                        </div>
+                    </div>
+                    <div target="_self" title="Twiter" class="tile-card" onclick="openApp('twitter.com')">
+                        <figure class="image is-16by9">
+                            <img
+                                loading="lazy"
+                                src="img/tw.png"
+                                alt="Twiter"
+                            />
+                        </figure>
+                        <div class="content">
+                            <div class="name"><span>Twiiter</span></div>
+                        </div>
+                    </div>
+                    <div target="_self" title="Reddit" class="tile-card" onclick="openApp('reddit.com')">
+                        <figure class="image is-16by9">
+                            <img
+                                loading="lazy"
+                                src="img/redit.png"
+                                alt="Reddit"
+                            />
+                        </figure>
+                        <div class="content">
+                            <div class="name"><span>Reddit</span></div>
+                        </div>
+                    </div>
+                    <div target="_self" title="Spotify" class="tile-card" onclick="openApp('spotify.com')">
+                        <figure class="image is-16by9">
+                            <img
+                                loading="lazy"
+                                src="img/spotify.png"
+                                alt="Spotify"
+                            />
+                        </figure>
+                        <div class="content">
+                            <div class="name"><span>Spotify</span></div>
+                        </div>
+                    </div>
+                    <div target="_self" title="Pinterest" class="tile-card" onclick="openApp('pinterest.com')">
+                        <figure class="image is-16by9">
+                            <img
+                                loading="lazy"
+                                src="img/pin.png"
+                                alt="Pinterest"
+                            />
+                        </figure>
+                        <div class="content">
+                            <div class="name"><span>Pinteret</span></div>
+                        </div>
+                    </div>
+                    <div target="_self" title="Discord" class="tile-card" onclick="openApp('discord.com')">
+                        <figure class="image is-16by9">
+                            <img
+                                loading="lazy"
+                                src="img/discord.jpg"
+                                alt="Discord"
+                            />
+                        </figure>
+                        <div class="content">
+                            <div class="name"><span>Discord</span></div>
+                        </div>
+                    </div>
+                    <div target="_self" title="NetFlix" class="tile-card" onclick="openApp('netflix.com')">
+                        <figure class="image is-16by9">
+                            <img
+                                loading="lazy"
+                                src="img/netflix.png"
+                                alt="NetFlix"
+                            />
+                        </figure>
+                        <div class="content">
+                            <div class="name"><span>NetFlix</span></div>
+                        </div>
+                    </div>
+                    <div target="_self" title="Github" class="tile-card" onclick="openApp('github.com')">
+                        <figure class="image is-16by9">
+                            <img
+                                loading="lazy"
+                                src="img/github.png"
+                                alt="Github"
+                            />
+                        </figure>
+                        <div class="content">
+                            <div class="name"><span>Github</span></div>
+                        </div>
+                    </div>
+                    <div target="_self" title="Disney" class="tile-card" onclick="openApp('play.geforcenow.com')">
+                        <figure class="image is-16by9">
+                            <img
+                                loading="lazy"
+                                src="img/geforce-now.png"
+                                alt="Disney"
+                            />
+                        </figure>
+                        <div class="content">
+                            <div class="name"><span>Geforce Now</span></div>
+                        </div>
+                    </div>
+                    <div target="_self" title="Poki" class="tile-card" onclick="openApp('poki.com')">
+                        <figure class="image is-16by9">
+                            <img
+                                loading="lazy"
+                                src="img/poki.png"
+                                alt="Poki"
+                            />
+                        </figure>
+                        <div class="content">
+                            <div class="name"><span>Poki</span></div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="title" style="margin-top: 20px;">Tab Cloaker <span></span></h2>
+                <form>
+                    <label for="">Title</label>
+                    <input type="text" name="username" class="input navbar-control" placeholder="Classroom" id="title">
+                    <label for="">Icon</label>
+                    <input type="text" name="password" class="input navbar-control" placeholder="https://ssl.gstatic.com/classroom/favicon.png" value="https://ssl.gstatic.com/classroom/favicon.png" id="icon">
+                    <label for="">Blank Tab</label>
+                    <select name="" id="blanktab" class="input navbar-control">
+                        <option value="1">Enable</option>
+                        <option value="0" selected>Disable</option>
+                    </select>
+                    <button class="button navbar-control" type="button" id="btnTitle"  style="margin-top: 20px;margin-right: 20px;background: linear-gradient(0deg,#19abe6,#67b5f4 90%);color:#fff;">Set title</button>
+                    <button class="button navbar-control" type="button" id="btnIcon"  style="margin-top: 20px;margin-right: 20px;background: linear-gradient(0deg,#19abe6,#67b5f4 90%);color:#fff;">Set Icon</button>
+                    <button class="button navbar-control" type="button" id="btnBlank"  style="margin-top: 20px;margin-right: 20px;background: linear-gradient(0deg,#19abe6,#67b5f4 90%);color:#fff;">Set Blank Tab</button>
+                    <button class="button navbar-control" type="button" id="btnReset"  style="margin-top: 20px;background: linear-gradient(0deg,#19abe6,#67b5f4 90%);color:#fff;">Reset</button>
+                </form>
+                
+            </div>  
+           
+        </section>
+        <section class="section footer-description">
+          <div class="container is-max-widescreen">
+            <div class="content">
+                
+            </div>
+          </div>
+        </section>
+        <footer class="section footer">
+            <div class="footer-menu">
+                <div class="container">
+                    <ul>
+
+                        <li>
+                            <a href="#" target="_self" title="Privacy Statement" class="has-hover">Privacy</a>
+                          </li>
+                          <li>
+                            <a href="#" target="_self" title="Terms of use" class="has-hover">Terms of use</a>
+                          </li>
+                      </ul>
+                    <p><span>Copyright Education © 2022. A Inoachoa Production </span></p>
+                </div>
+            </div>
+           
+        </footer>
+        <!-- 
+            popup ads
+        -->
+        <div class='code-block code-block-12' style='position: fixed; width: 100%!important; z-index: 99999999999; text-align: center;bottom: 0px;'>
+
+            <div style="display: none;" class='sticky-ads' id='sticky-ads'>
+            
+            <div class='sticky-ads-close' onclick='closestickyAds();'><svg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'><path d='M278.6 256l68.2-68.2c6.2-6.2 6.2-16.4 0-22.6-6.2-6.2-16.4-6.2-22.6 0L256 233.4l-68.2-68.2c-6.2-6.2-16.4-6.2-22.6 0-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3l68.2 68.2-68.2 68.2c-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3 6.2 6.2 16.4 6.2 22.6 0l68.2-68.2 68.2 68.2c6.2 6.2 16.4 6.2 22.6 0 6.2-6.2 6.2-16.4 0-22.6L278.6 256z' /></svg></div>
+            
+              <div class='sticky-ads-content'>
+            
+
+              </div>
+            
+            </div>
+              
+          </div> 
+        <script>
+        var d_location = 'us';
+        var lc = localStorage.getItem('lc');
+        if(lc){
+            d_location = lc;
+        } else {
+            localStorage.setItem('lc',d_location);
+        }
+        function setLocation(lc){
+            localStorage.setItem('lc',lc);
+        }
+        function openApp(url){
+            const blanktab = localStorage.getItem("blanktab") || 0;
+            if(blanktab == 0){
+                document.getElementById('category_takeover').style.height = '91vh';
+                document.getElementById('category_takeover').style.width = '100%';
+                var html = ` <iframe class="iframeloader" id="app_frame" src="/class.html?domain=${url}" frameborder="0"></iframe>`;
+                document.getElementById('category_takeover').innerHTML = html;
+            } else {
+                const new_url = `https://${location.hostname}/class.html?domain=${url}`;
+                win = window.open();
+                win.document.body.style.margin = '0';
+                win.document.body.style.height = '100vh';
+                win.document.body.style.background =  `url('https://${location.hostname}/prx-loading.gif') 5vw center center no-repeat;`;
+                var iframe = win.document.createElement('iframe');
+                iframe.style.border = 'none';
+                iframe.style.width = '100%';
+                iframe.style.height = '100%';
+                iframe.style.margin = '0';
+                iframe.src = new_url;
+                win.document.body.appendChild(iframe);
+            }
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        </script>
+        <script src="js/main.js"></script>
+        <script src="js/setting.js"></script>
+        <script>
+            function closestickyAds()
+            {
+  
+              document.querySelector("#sticky-ads").style.display = "none";
+  
+              stickyClosed = true;
+  
+            }
+            document.querySelector("#sticky-ads").style.display = "none";
+          </script>
+          
+            <script>
+                window.addEventListener('keydown', function (e) {
+                    if(e.key == "`")
+                    {
+
+                        window.open('https://classroom.google.com/u/0/h', '_blank');
+
+                    }
+                }, false);
+            </script>
+
+    </body>
+</html>
